@@ -1,0 +1,39 @@
+{
+  "name": "ImageForge IA Pro",
+  "short_name": "ImageForge",
+  "description": "Mejora, escala y elimina fondos de imágenes con IA",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#07070e",
+  "theme_color": "#0a0a0f",
+  "orientation": "landscape-primary",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='32' fill='%237c5cfc'/><text y='130' font-size='110' text-anchor='middle' x='96'>⚡</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='80' fill='%237c5cfc'/><text y='360' font-size='300' text-anchor='middle' x='256'>⚡</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["photo", "utilities", "productivity"],
+  "shortcuts": [
+    {
+      "name": "Mejorar imagen",
+      "short_name": "Mejorar",
+      "url": "/index.html?tool=enhance",
+      "description": "Mejora la calidad de tus imágenes con IA"
+    },
+    {
+      "name": "Eliminar fondo",
+      "short_name": "Sin fondo",
+      "url": "/index.html?tool=remove",
+      "description": "Elimina el fondo de tus imágenes"
+    }
+  ]
+}
